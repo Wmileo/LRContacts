@@ -15,6 +15,7 @@
 		B3B919FC1FADA3D300B16A26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3B919FA1FADA3D300B16A26 /* LaunchScreen.storyboard */; };
 		B3B91A071FADA3D300B16A26 /* LRContactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B91A061FADA3D300B16A26 /* LRContactsTests.m */; };
 		B3B91A121FADA3D300B16A26 /* LRContactsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B91A111FADA3D300B16A26 /* LRContactsUITests.m */; };
+		B3B91A221FADA3F700B16A26 /* LRContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B91A211FADA3F700B16A26 /* LRContacts.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B3B91A0D1FADA3D300B16A26 /* LRContactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRContactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3B91A111FADA3D300B16A26 /* LRContactsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRContactsUITests.m; sourceTree = "<group>"; };
 		B3B91A131FADA3D300B16A26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3B91A201FADA3F700B16A26 /* LRContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRContacts.h; sourceTree = "<group>"; };
+		B3B91A211FADA3F700B16A26 /* LRContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRContacts.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				B3B919F01FADA3D300B16A26 /* AppDelegate.m */,
 				B3B919F21FADA3D300B16A26 /* ViewController.h */,
 				B3B919F31FADA3D300B16A26 /* ViewController.m */,
+				B3B91A1F1FADA3E600B16A26 /* Contacts */,
 				B3B919F51FADA3D300B16A26 /* Main.storyboard */,
 				B3B919F81FADA3D300B16A26 /* Assets.xcassets */,
 				B3B919FA1FADA3D300B16A26 /* LaunchScreen.storyboard */,
@@ -138,6 +142,15 @@
 				B3B91A131FADA3D300B16A26 /* Info.plist */,
 			);
 			path = LRContactsUITests;
+			sourceTree = "<group>";
+		};
+		B3B91A1F1FADA3E600B16A26 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				B3B91A201FADA3F700B16A26 /* LRContacts.h */,
+				B3B91A211FADA3F700B16A26 /* LRContacts.m */,
+			);
+			path = Contacts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3B91A221FADA3F700B16A26 /* LRContacts.m in Sources */,
 				B3B919F41FADA3D300B16A26 /* ViewController.m in Sources */,
 				B3B919F11FADA3D300B16A26 /* AppDelegate.m in Sources */,
 				B3B919EE1FADA3D300B16A26 /* main.m in Sources */,

@@ -22,7 +22,7 @@
         [contacts enumerateObjectsUsingBlock:^(CNContact * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             CNContactFormatter *formatter = [[CNContactFormatter alloc] init];
             NSString *strName = [formatter stringFromContact:obj];
-            NSLog(@"%@",strName);
+            NSLog(@"%@- %@",strName,obj.identifier);
         }];
     }];
     

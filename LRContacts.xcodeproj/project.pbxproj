@@ -18,6 +18,7 @@
 		B3B91A221FADA3F700B16A26 /* LRContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B91A211FADA3F700B16A26 /* LRContacts.m */; };
 		B3B91A261FADA5C900B16A26 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B91A241FADA5C900B16A26 /* Contacts.framework */; };
 		B3B91A271FADA5C900B16A26 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B91A251FADA5C900B16A26 /* ContactsUI.framework */; };
+		B3B91A291FADB03C00B16A26 /* LRContacts.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B3B91A281FADB03C00B16A26 /* LRContacts.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		B3B91A211FADA3F700B16A26 /* LRContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRContacts.m; sourceTree = "<group>"; };
 		B3B91A241FADA5C900B16A26 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
 		B3B91A251FADA5C900B16A26 /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
+		B3B91A281FADB03C00B16A26 /* LRContacts.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LRContacts.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		B3B919E01FADA3D300B16A26 = {
 			isa = PBXGroup;
 			children = (
+				B3B91A281FADB03C00B16A26 /* LRContacts.podspec */,
 				B3B919EB1FADA3D300B16A26 /* LRContacts */,
 				B3B91A051FADA3D300B16A26 /* LRContactsTests */,
 				B3B91A101FADA3D300B16A26 /* LRContactsUITests */,
@@ -281,6 +284,7 @@
 				B3B919FC1FADA3D300B16A26 /* LaunchScreen.storyboard in Resources */,
 				B3B919F91FADA3D300B16A26 /* Assets.xcassets in Resources */,
 				B3B919F71FADA3D300B16A26 /* Main.storyboard in Resources */,
+				B3B91A291FADB03C00B16A26 /* LRContacts.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,7 @@
 
 @interface LRContacts : NSObject
 
-+(BOOL)isAuthorization;
++(void)isAuthorization:(void (^)(BOOL auth))auth;
 
 +(void)fetchContactsCallBack:(void (^)(NSArray<CNContact *>* contacts, BOOL success))callback;
 

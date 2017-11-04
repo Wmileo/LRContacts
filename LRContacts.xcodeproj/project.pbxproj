@@ -16,6 +16,8 @@
 		B3B91A071FADA3D300B16A26 /* LRContactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B91A061FADA3D300B16A26 /* LRContactsTests.m */; };
 		B3B91A121FADA3D300B16A26 /* LRContactsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B91A111FADA3D300B16A26 /* LRContactsUITests.m */; };
 		B3B91A221FADA3F700B16A26 /* LRContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B91A211FADA3F700B16A26 /* LRContacts.m */; };
+		B3B91A261FADA5C900B16A26 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B91A241FADA5C900B16A26 /* Contacts.framework */; };
+		B3B91A271FADA5C900B16A26 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B91A251FADA5C900B16A26 /* ContactsUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		B3B91A131FADA3D300B16A26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3B91A201FADA3F700B16A26 /* LRContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRContacts.h; sourceTree = "<group>"; };
 		B3B91A211FADA3F700B16A26 /* LRContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRContacts.m; sourceTree = "<group>"; };
+		B3B91A241FADA5C900B16A26 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		B3B91A251FADA5C900B16A26 /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3B91A261FADA5C900B16A26 /* Contacts.framework in Frameworks */,
+				B3B91A271FADA5C900B16A26 /* ContactsUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +94,7 @@
 				B3B91A051FADA3D300B16A26 /* LRContactsTests */,
 				B3B91A101FADA3D300B16A26 /* LRContactsUITests */,
 				B3B919EA1FADA3D300B16A26 /* Products */,
+				B3B91A231FADA5C800B16A26 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,6 +158,15 @@
 				B3B91A211FADA3F700B16A26 /* LRContacts.m */,
 			);
 			path = Contacts;
+			sourceTree = "<group>";
+		};
+		B3B91A231FADA5C800B16A26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3B91A241FADA5C900B16A26 /* Contacts.framework */,
+				B3B91A251FADA5C900B16A26 /* ContactsUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -445,6 +461,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9MDFP7US47;
 				INFOPLIST_FILE = LRContacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leospace.LRContacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -457,6 +474,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9MDFP7US47;
 				INFOPLIST_FILE = LRContacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leospace.LRContacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";

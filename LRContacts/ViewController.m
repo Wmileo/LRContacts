@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LRContacts.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+    [LRContacts fetchContactsCallBack:^(NSArray<CNContact *> *contacts, BOOL success) {
+        [contacts enumerateObjectsUsingBlock:^(CNContact * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            CNContactFormatter *formatter = [[CNContactFormatter alloc] init];
+            NSString *strName = [formatter stringFromContact:obj];
+            NSLog(@"%@",strName);
+        }];
+    }];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
